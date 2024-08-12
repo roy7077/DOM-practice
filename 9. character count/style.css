@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    position: relative;;
+}
+
+.main{
+    height: 50%;
+    width: 500px;
+    padding: 10%;
+    /* background-color: red; */
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+textarea {
+    height: 300px;
+    width: 500px;
+    padding: 5px;
+    border: 1px solid royalblue;
+    outline: none;
+    white-space: pre-wrap; /* This will ensure that whitespace is preserved as is, and wrapped as necessary */
+}
+
+h1{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

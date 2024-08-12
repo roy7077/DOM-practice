@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    position: relative;
+}
+
+p{
+    padding: 2%;
+}
+.pro1{
+    height: fit-content;
+    width: fit-content;
+    background-color: lavender;
+    border-radius: 15px;
+    position: absolute;
+    top: 20%;
+    position: relative;
+    left: 20%;
+}
+
+button{
+    margin: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:5%;
+    left: 40%;
+}
+
+.clickClass{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+
+.clickClass2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}

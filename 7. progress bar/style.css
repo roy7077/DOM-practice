@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.center{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#div1{
+    height: 10px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgb(189, 183, 175);
+}
+
+#progress{
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    background-color: green;
+}
+
+h2{
+    opacity: 0;
+}
+
+button{
+    margin: 20px;
+    height: fit-content;
+    width: fit-content;
+}
